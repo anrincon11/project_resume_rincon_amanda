@@ -24,6 +24,7 @@ h1 {
 
 h2 {
 	font-family: 'Lobster', cursive;
+	font-weight: normal;
 	color: #d65077;
 	margin: 0;
 	padding: 0;
@@ -51,6 +52,10 @@ h3 {
 
 p {
 	color: #58595b;
+}
+
+a {
+	text-decoration: none;
 }
 
 /* HEADER */
@@ -263,4 +268,61 @@ header {
 
 #award {
 	margin-bottom: 20px;
+}
+
+/* CONTACT INFO SECTION */
+
+#portfolio {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+#portfolio img {
+	width: 100%;
+}
+
+#contact-info {
+	width: 53%;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+
+.contact-title {
+	float: left;
+	margin-right: 5px;
+	font-weight: bold;
+}
+
+/* FOOTER SECTION */
+
+footer {
+	clear: both;
+	padding: 20px 0;
+	margin-top: 20px;
+	background-color: #d65077;
+	text-align: center;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 100px solid #d65077;
+	margin: auto;
+	margin-top: -60px;
+}
+
+footer p {
+	color: #ffffff;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 300px) {
+	footer {
+		width: 100%;
+	}
 }
