@@ -17,6 +17,9 @@ h1 {
 	font-family: 'Lobster', cursive;
 	margin: 0;
 	padding: 0;
+	color: #d65077;
+	text-align: center;
+	font-weight: normal;
 }
 
 h4 {
@@ -30,6 +33,17 @@ h4 {
 h3,
 p {
 	font-family: 'Archivo Narrow', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	color: #54b4b0;
+	font-weight: normal;
+}
+
+p {
+	color: #58595b;
 }
 
 /* HEADER */
@@ -37,6 +51,7 @@ p {
 header {
 	background-color: #54b4b0;
 	padding: 10px;
+	margin-bottom: 20px;
 }
 
 #logo {
@@ -67,5 +82,31 @@ header {
 	h4 {
 		font-size: 15px;
 		text-align: center;
+	}
+}
+
+.body-headers {
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px dotted #cccccc;
+}
+
+@media (min-width: 300px) {
+	h3,
+	p {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	section {
+		width: 90%;
+		margin: auto;
+	}
+}
+
+/* EDUCATION SECTION */
+
+@media (min-width: 300px) {
+	#slo,
+	#ufl {
+		margin: 10px 0;
 	}
 }
