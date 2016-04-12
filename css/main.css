@@ -1,3 +1,13 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
 #container {
 	max-width: 1200px;
 	margin: auto;
@@ -5,10 +15,21 @@
 
 h1 {
 	font-family: 'Lobster', cursive;
+	margin: 0;
+	padding: 0;
 }
 
 h4 {
-	font-family: "tablet-gothic-narrow", sans-serif;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-weight: normal;
+	color: #2a5a59;
+	margin: 0;
+	padding: 0;
+}
+
+h3,
+p {
+	font-family: 'Archivo Narrow', sans-serif;
 }
 
 /* HEADER */
@@ -19,9 +40,32 @@ header {
 }
 
 #logo {
-	margin: -20px;
+	opacity: 0.45;
 }
 
 .header-name {
 	color: #ffffff;
+	text-shadow: 4px 3px 0 #2a5a59;
+}
+
+@media (min-width: 300px) {
+	#header {
+		margin: auto;
+		width: 80%;
+	}
+	#logo {
+		width: 0%;
+	}
+	#logo img {
+		width: 0%;
+	}
+	.header-name {
+		font-size: 40px;
+		text-align: center;
+		margin-top: -20px;
+	}
+	h4 {
+		font-size: 15px;
+		text-align: center;
+	}
 }
