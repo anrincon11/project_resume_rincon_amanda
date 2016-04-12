@@ -127,3 +127,97 @@ header {
 		text-align: right;
 	}
 }
+
+/* SKILLS SECTION */
+
+#skills {
+	margin-top: 20px;
+}
+
+#titles {
+	margin: auto;
+}
+
+.graph-titles {
+	float: left;
+	margin-right: 105px;
+}
+
+.graph-titles:last-child {
+	margin-right: 0;
+}
+
+#graph {
+	clear: both;
+	border-top: 1px solid #cccccc;
+}
+
+#photoshop {
+	background-color: #d65077;
+	width: 80%;
+	margin-top: 10px;
+	color: #ffffff;
+	padding: 3px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#illustrator {
+	background-color: #54b4b0;
+	width: 88%;
+	margin-top: 5px;
+	color: #ffffff;
+	padding: 3px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#indesign {
+	background-color: #d65077;
+	width: 73%;
+	margin-top: 5px;
+	color: #ffffff;
+	padding: 3px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#html5 {
+	background-color: #54b4b0;
+	width: 88%;
+	margin-top: 5px;
+	color: #ffffff;
+	padding: 3px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#php {
+	background-color: #d65077;
+	width: 20%;
+	margin-top: 5px;
+	color: #ffffff;
+	padding: 3px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#js {
+	background-color: #54b4b0;
+	width: 25%;
+	margin-top: 5px;
+	color: #ffffff;
+	padding: 3px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#jq {
+	background-color: #d65077;
+	width: 30%;
+	margin-top: 5px;
+	color: #ffffff;
+	padding: 3px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
