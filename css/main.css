@@ -221,3 +221,35 @@ header {
 	-webkit-border-radius: 15px 15px 15px 15px;
 	border-radius: 15px 15px 15px 15px;
 }
+
+/* INTERESTS SECTION */
+
+#interests {
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.icon {
+	text-align: center;
+	margin: 10px 0 20px 10px;
+}
+
+.icon img {
+	width: auto;
+	height: 40px;
+	margin: auto;
+}
+
+@media (min-width: 300px) {
+	.icon {
+		float: left;
+		width: 20%;
+	}
+}
+
+/* ACHIEVEMENTS SECTION */
+
+#achievements {
+	clear: both;
+}
