@@ -88,6 +88,7 @@ header {
 .body-headers {
 	border-top: 1px solid #cccccc;
 	border-bottom: 1px dotted #cccccc;
+	margin-bottom: 20px;
 }
 
 @media (min-width: 300px) {
@@ -107,6 +108,22 @@ header {
 @media (min-width: 300px) {
 	#slo,
 	#ufl {
-		margin: 10px 0;
+		margin: 20px 0;
+	}
+}
+
+/* WORK EXPERIENCE SECTION */
+
+#experience {
+	margin-top: 30px;
+}
+
+.year {
+	color: #a7a9ac;
+}
+
+@media (min-width: 300px) {
+	.work-right {
+		text-align: right;
 	}
 }
