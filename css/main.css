@@ -152,7 +152,6 @@ header {
 #skills,
 #achievements,
 #contact {
-	background-position: right bottom;
 	background-size: 50%;
 }
 
@@ -163,6 +162,17 @@ header {
 	#achievements,
 	#contact {
 		background-size: 0%;
+	}
+}
+
+@media (min-width: 600px) {
+	#education,
+	#experience,
+	#skills,
+	#achievements,
+	#contact {
+		background-size: 30%;
+		background-position: right bottom;
 	}
 }
 
