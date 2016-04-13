@@ -152,8 +152,8 @@ header {
 
 .body-headers {
 	border-top: 1px solid #cccccc;
-	border-bottom: 1px dotted #cccccc;
-	margin-bottom: 20px;
+	border-bottom: 3px dashed #cccccc;
+	margin-bottom: 30px;
 }
 
 @media (min-width: 300px) {
@@ -173,6 +173,16 @@ header {
 	p {
 		font-size: 20px;
 		line-height: 25px;
+	}
+}
+
+@media (min-width: 900px) {
+	section {
+		width: 100%;
+		margin: auto;
+	}
+	.body-headers {
+		font-size: 50px;
 	}
 }
 
@@ -216,6 +226,25 @@ header {
 	#slo,
 	#ufl {
 		margin: 20px 0;
+	}
+}
+
+@media (min-width: 900px) {
+	#education {
+		background-position: bottom center;
+	}
+	#slo {
+		width: 410px;
+		float: left;
+		margin-top: 0;
+		margin-right: 250px;
+	}
+	#ufl {
+		padding-bottom: 90px;
+	}
+	#slo p,
+	#ufl p {
+		margin: 15px 0;
 	}
 }
 
