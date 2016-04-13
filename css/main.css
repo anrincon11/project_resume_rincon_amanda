@@ -216,6 +216,13 @@ header {
 	}
 }
 
+@media (min-width: 600px) {
+	#work {
+		width: 500px;
+		margin: auto;
+	}
+}
+
 /* SKILLS SECTION */
 
 #skills {
