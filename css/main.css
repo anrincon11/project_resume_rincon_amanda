@@ -440,6 +440,7 @@ header {
 		clear: both;
 		width: 100%;
 		margin: 0;
+		padding-bottom: 120px;
 	}
 	#loves {
 		width: 100%;
@@ -467,6 +468,19 @@ header {
 @media (min-width: 600px) {
 	#award {
 		padding-bottom: 80px;
+	}
+}
+
+@media (min-width: 900px) {
+	#achievements {
+		width: 460px;
+		float: left;
+	}
+	#contact {
+		width: 620px;
+		float: right;
+		border-left: 3px dashed #cccccc;
+		padding-left: 20px;
 	}
 }
 
