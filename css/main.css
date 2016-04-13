@@ -68,6 +68,9 @@ header {
 
 #logo {
 	opacity: 0.45;
+	margin: 0;
+	padding: 0;
+	max-width: 250px;
 }
 
 .header-name {
@@ -94,6 +97,35 @@ header {
 	h4 {
 		font-size: 15px;
 		text-align: center;
+	}
+}
+
+@media (min-width: 600px) {
+	#header {
+		margin: auto;
+		width: 80%;
+	}
+	#logo {
+		width: 40%;
+		margin-top: -10px;
+		margin-left: -10px;
+	}
+	#logo img {
+		width: 100%;
+	}
+	.header-name {
+		font-size: 50px;
+		text-align: right;
+		margin-top: -130px;
+	}
+	h4 {
+		font-size: 20px;
+		text-align: right;
+		margin-bottom: 30px;
+	}
+	.header-name,
+	h4 {
+		margin-right: 20px;
 	}
 }
 
