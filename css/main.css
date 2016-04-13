@@ -378,7 +378,14 @@ header {
 }
 
 #award {
+	width: 60%;
 	margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+	#award {
+		padding-bottom: 80px;
+	}
 }
 
 /* CONTACT INFO SECTION */
