@@ -115,7 +115,31 @@ header {
 	}
 }
 
+#education,
+#experience,
+#skills,
+#achievements,
+#contact {
+	background-position: right bottom;
+	background-size: 50%;
+}
+
+@media (min-width: 300px) {
+	#education,
+	#experience,
+	#skills,
+	#achievements,
+	#contact {
+		background-size: 0%;
+	}
+}
+
 /* EDUCATION SECTION */
+
+#education {
+	background-image: url("../img/grad-cap.png");
+	background-repeat: no-repeat;
+}
 
 @media (min-width: 300px) {
 	#slo,
@@ -128,6 +152,8 @@ header {
 
 #experience {
 	margin-top: 30px;
+	background-image: url("../img/briefcase.png");
+	background-repeat: no-repeat;
 }
 
 .year {
@@ -144,6 +170,8 @@ header {
 
 #skills {
 	margin-top: 20px;
+	background-image: url("../img/pencil.png");
+	background-repeat: no-repeat;
 }
 
 #titles {
@@ -264,6 +292,8 @@ header {
 
 #achievements {
 	clear: both;
+	background-image: url("../img/trophy.png");
+	background-repeat: no-repeat;
 }
 
 #award {
@@ -271,6 +301,11 @@ header {
 }
 
 /* CONTACT INFO SECTION */
+
+#contact {
+	background-image: url("../img/phone.png");
+	background-repeat: no-repeat;
+}
 
 #portfolio {
 	width: 60%;
