@@ -273,6 +273,22 @@ header {
 	}
 }
 
+@media (min-width: 900px) {
+	#experience {
+		width: 600px;
+		float: left;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	#skills {
+		width: 480px;
+		float: right;
+		border-left: 3px dashed #cccccc;
+		padding-bottom: 90px;
+		padding-left: 20px;
+	}
+}
+
 /* SKILLS SECTION */
 
 #skills {
@@ -416,6 +432,17 @@ header {
 	#loves {
 		width: 90%;
 		margin: auto;
+	}
+}
+
+@media (min-width: 900px) {
+	#interests {
+		clear: both;
+		width: 100%;
+		margin: 0;
+	}
+	#loves {
+		width: 100%;
 	}
 }
 
