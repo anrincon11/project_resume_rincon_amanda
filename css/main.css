@@ -319,6 +319,14 @@ header {
 	border-radius: 15px 15px 15px 15px;
 }
 
+@media (min-width: 600px) {
+	#titles,
+	#graph {
+		width: 360px;
+		margin: auto;
+	}
+}
+
 /* INTERESTS SECTION */
 
 #interests {
