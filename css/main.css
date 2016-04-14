@@ -175,6 +175,7 @@ nav ul li {
 nav ul li:hover {
 	color: #d65077;
 }
+
 @media (min-width: 600px) {
 	nav ul li {
 		display: inline;

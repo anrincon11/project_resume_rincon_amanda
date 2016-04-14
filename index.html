@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/vendor/normalize.min.css" />
+	<link rel="stylesheet" href="css/vendor/tab.css" />
 	<link rel="stylesheet" href="css/main.css" />
 </head>
 <body>
@@ -31,11 +32,12 @@
 		<!-- BEGIN NAVIGATION-->
 		<nav>
 			<ul>
-				<li><a href="#" onclick="$('#education').animatescroll();">EDUCATION</a></li>
-				<li><a href="#" onclick="$('#experience').animatescroll();">WORK EXPERIENCE</a></li>
-				<li><a href="#" onclick="$('#skills').animatescroll();">SKILLS</a></li>
-				<li><a href="#" onclick="$('#achievements').animatescroll();">ACHIEVEMENTS</a></li>
-				<li><a href="#" onclick="$('#contact').animatescroll();">CONTACT</a></li>
+				<li id="one"><a href="#education">EDUCATION</a></li>
+				<li id="two"><a href="#experience">EXPERIENCE</a></li>
+				<li id="three"><a href="#skills">SKILLS</a></li>
+				<li id="four"><a href="#interests">INTERESTS</a></li>
+				<li id="five"><a href="#achievements">ACHIEVEMENTS</a></li>
+				<li id="six"><a href="#contact">CONTACT</a></li>
 			</ul>
 		</nav>
 		<!-- END NAVIGATION-->
@@ -225,6 +227,7 @@
 
 	<script src="js/jquery-2.2.3.min.js"></script>
 	<script src="js/animatescroll.min.js"></script>
+	<script src="js/jquery.scrollUp.js"></script>
 	<script src="js/main.js"></script>
 
 </body>
