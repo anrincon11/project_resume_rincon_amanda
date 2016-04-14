@@ -56,6 +56,11 @@ p {
 
 a {
 	text-decoration: none;
+	color: #58595b;
+}
+
+a:visited {
+	color: #58595b;
 }
 
 /* HEADER */
@@ -502,6 +507,15 @@ header {
 	width: 100%;
 }
 
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+figure img {
+	width: 100%;
+}
+
 #contact-info {
 	margin: 0;
 	padding: 0;
@@ -509,14 +523,20 @@ header {
 
 @media (min-width: 300px) {
 	#portfolio {
-		width: 60%;
+		width: 40%;
 		margin: auto;
 		text-align: center;
 	}
-	#contact-info {
-		width: 200px;
+	figure {
+		width: 30%;
 		margin: auto;
-		margin-top: 20px;
+		margin: 30px 5px 20px 20px;
+		float: left;
+	}
+	#contact-info {
+		width: 80%;
+		margin: auto;
+		margin-top: 60px;
 		margin-bottom: 80px;
 		text-align: center;
 	}
@@ -539,8 +559,16 @@ header {
 		margin-top: 60px;
 		padding-bottom: 20px;
 	}
-	#contact-info p {
-		margin: 30px 0;
+}
+
+@media (min-width: 900px) {
+	#contact {
+		margin-bottom: 70px;
+	}
+	#portfolio {
+		width: 150px;
+		margin-left: 0;
+		padding-bottom: 20px;
 	}
 }
 
