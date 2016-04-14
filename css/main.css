@@ -546,17 +546,15 @@ figure img {
 }
 
 @media (min-width: 600px) {
-	#portfolio {
-		width: 200px;
-		float: left;
-		margin-left: 40px;
-		padding-bottom: 80px;
+	figure {
+		margin-left: 50px;
+		margin-top: 70px;
 	}
 	#contact-info {
 		width: 300px;
 		text-align: left;
 		margin-right: 0;
-		margin-top: 60px;
+		margin-top: 110px;
 		padding-bottom: 20px;
 	}
 }
