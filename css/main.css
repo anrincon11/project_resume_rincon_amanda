@@ -181,14 +181,7 @@ nav ul li a:hover {
 		display: inline;
 		padding-left: 10px;
 		padding-right: 10px;
-	}
-}
-
-@media (min-width: 600px) {
-	nav ul li {
-		display: inline;
-		padding-left: 10px;
-		padding-right: 10px;
+		font-size: 14px;
 	}
 }
 
@@ -199,6 +192,7 @@ nav ul li a:hover {
 	nav ul li {
 		margin-left: 40px;
 		margin-right: 40px;
+		font-size: 17px;
 	}
 	nav ul li:first-child,
 	nav ul li:last-child {
