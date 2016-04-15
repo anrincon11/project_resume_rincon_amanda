@@ -172,7 +172,7 @@ nav ul li {
 	padding: 12px 0;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
 	color: #d65077;
 }
 
@@ -664,4 +664,24 @@ footer p {
 	footer {
 		width: 100%;
 	}
+}
+
+/* SCROLL UP PLUGIN */
+
+#scrollUp {
+	bottom: -10px;
+	right: 40px;
+	width: 80px;
+	padding: 10px 10px 25px 10px;
+	background: #e6e6e6;
+	color: #8a8a8a;
+	text-align: center;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	-webkit-box-shadow: inset 2px 2px 7px 2px #d4d4d4;
+	box-shadow: inset 2px 2px 7px 2px #d4d4d4;
+}
+
+#scrollUp:hover {
+	bottom: 0;
 }
